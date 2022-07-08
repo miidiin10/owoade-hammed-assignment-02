@@ -44,10 +44,6 @@ let evenNums = []
     return evenNums;
 }
 
- let res = countEvenNumbers([3,2,8,10,6,5,13])
-       
-     console.log(res)
-
 
 /**
  * Challenge - 3
