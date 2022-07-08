@@ -21,7 +21,7 @@ function sumOfNumbers(arrayOfNumbers) {
   }
     return sumArray;
 }
-
+ assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -34,16 +34,16 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 function countEvenNumbers(arrayOfNumbers) {
 let evenNums = []
-  arrayOfNumbers.map( (num) => {
+  arrayOfNumbers.map( num => {
     if (num % 2 == 0)
     {
       evenNums.push(num)
     }
     
   })
-    return evenNums;
+    return evenNums.length;
 }
-
+ assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
